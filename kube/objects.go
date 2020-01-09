@@ -31,7 +31,7 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 )
 
-//Identifier is used to identify a specific namspace scoped object.
+//Identifier is used to identify a specific namspace scoped objects.
 type Identifier struct {
 	Name      string
 	Namespace string
